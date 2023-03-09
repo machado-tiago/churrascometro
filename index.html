@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Churrascometro</title>
+
+</head>
+<body>
+    <main class="container">
+        <h1>Calcule aqui a quantidade de carne, cerveja e refrigerante para fazer o seu churrasco!</h1>
+        <div class="cartao">
+            <h2>Churrascômetro</h2>
+
+            <fieldset>
+                <label for="adultos">Adultos</label>
+                <input id="adultos" type="number" min="0" placeholder="quantidade">
+            </fieldset>
+            
+            <fieldset>
+                <label for="criancas">Crianças</label>
+                <input id="criancas" type="number" min="0" placeholder="quantidade">
+            </fieldset>
+            
+            <fieldset>
+                <label for="duracao">Duração (h)</label>
+                <input id="duracao" type="number" min="0" placeholder="horas de evento">
+            </fieldset>    
+            
+            <button id="calcular">Calcular</button>
+        </div>
+
+        <div class="cartao">
+            <h2>Resultado</h2>
+            <fieldset>
+                <label for="carne_result">Carne</label>
+                <input id="carne_result" type="text" disabled>
+            </fieldset>
+            <fieldset>
+                <label for="cerva_result">Cerveja</label>
+                <input id="cerva_result" type="text" disabled>
+            </fieldset>
+            <fieldset>
+                <label for="refri_result">Refrigerante</label>
+                <input id="refri_result" type="text" disabled>
+            </fieldset>
+
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
