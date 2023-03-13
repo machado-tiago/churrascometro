@@ -45,6 +45,7 @@ fieldset{
 
 label{
     width:170px;
+    flex-shrink: 0;
     text-align: right;
     margin-right: 8px;
     padding: 5px 0;
